@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": 1, "email": "admin@test.com", "password": "password12p3", "role": "Admin", "name": "Admin User" }
+  ],
+  "customers": [
+    { "id": 1, "name": "Innovate Corp", "email": "contact@innovate.com", "phone": "555-0101", "company": "Innovate Corp" },
+    { "id": 2, "name": "Quantum Solutions", "email": "info@quantum.com", "phone": "555-0102", "company": "Quantum Solutions" }
+  ],
+  "leads": [
+    { "id": 1, "customerId": 1, "title": "Website Redesign", "status": "New", "value": 15000 },
+    { "id": 2, "customerId": 1, "title": "Mobile App Dev", "status": "Contacted", "value": 25000 },
+    { "id": 3, "customerId": 2, "title": "Cloud Migration", "status": "Converted", "value": 50000 }
+  ]
+}
