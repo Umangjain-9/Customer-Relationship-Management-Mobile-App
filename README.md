@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+Mini CRM - React Native Mobile App
+A lightweight, feature-rich Customer Relationship Management (CRM) mobile application built with React Native and Expo. This app provides a clean interface for managing customers and their associated leads on the go.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Features
+Authentication: Secure user registration and login with persistent sessions.
 
-## Get started
+Customer Management: Full CRUD (Create, Read, Update, Delete) functionality for customer profiles.
 
-1. Install dependencies
+Lead Tracking: Manage sales leads associated with each customer, including status and value.
 
-   ```bash
-   npm install
-   ```
+Search & Pagination: Easily find customers with a real-time search and infinite scroll for long lists.
 
-2. Start the app
+Dashboard: Visual reporting with charts to track lead status and total sales value.
 
-   ```bash
-   npx expo start
-   ```
+Form Validation: Robust client-side validation for all user inputs.
 
-In the output, you'll find options to open the app in a
+Dark/Light Mode: Automatic theme switching based on system settings.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠️ Tech Stack
+Framework: React Native (Expo)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+State Management: Redux Toolkit
 
-## Get a fresh project
+Navigation: React Navigation (Stack & Bottom Tabs)
 
-When you're ready, run:
+UI Components: React Native Paper
 
-```bash
-npm run reset-project
-```
+API Client: Axios
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Form Handling: Formik & Yup
 
-## Learn more
+Charting: React Native Chart Kit
 
-To learn more about developing your project with Expo, look at the following resources:
+Mock API: json-server
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🚀 Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## Join the community
+Prerequisites
+Node.js (LTS version)
 
-Join our community of developers creating universal apps.
+json-server CLI (npm install -g json-server)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Go app on your mobile device
+
+Installation
+Clone the repository
+
+Bash
+
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+Install dependencies
+
+Bash
+
+npm install
+Set up environment variables
+
+Create a .env file in the project root.
+
+Add your local IP address for the API URL:
+
+API_URL=http://<YOUR_COMPUTER_IP_ADDRESS>:3001
+▶️ How to Run
+You need to run two processes in separate terminals: the mock API server and the Expo development server.
+
+Start the API Server
+
+Bash
+
+npx json-server --watch db.json --port 3001
+Start the Application
+
+Bash
+
+npx expo start
+Scan the QR code with the Expo Go app on your phone.
