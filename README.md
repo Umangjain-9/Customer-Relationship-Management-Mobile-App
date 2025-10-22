@@ -1,7 +1,9 @@
 Mini CRM - React Native Mobile App
+
 A lightweight, feature-rich Customer Relationship Management (CRM) mobile application built with React Native and Expo. This app provides a clean interface for managing customers and their associated leads on the go.
 
 ✨ Features
+
 Authentication: Secure user registration and login with persistent sessions.
 
 Customer Management: Full CRUD (Create, Read, Update, Delete) functionality for customer profiles.
@@ -17,6 +19,7 @@ Form Validation: Robust client-side validation for all user inputs.
 Dark/Light Mode: Automatic theme switching based on system settings.
 
 🛠️ Tech Stack
+
 Framework: React Native (Expo)
 
 State Management: Redux Toolkit
@@ -34,6 +37,7 @@ Charting: React Native Chart Kit
 Mock API: json-server
 
 🚀 Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
