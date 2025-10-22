@@ -2,6 +2,7 @@ Mini CRM - React Native Mobile App
 
 A lightweight, feature-rich Customer Relationship Management (CRM) mobile application built with React Native and Expo. This app provides a clean interface for managing customers and their associated leads on the go.
 
+
 ✨ Features
 
 Authentication: Secure user registration and login with persistent sessions.
@@ -17,6 +18,7 @@ Dashboard: Visual reporting with charts to track lead status and total sales val
 Form Validation: Robust client-side validation for all user inputs.
 
 Dark/Light Mode: Automatic theme switching based on system settings.
+
 
 🛠️ Tech Stack
 
@@ -35,6 +37,7 @@ Form Handling: Formik & Yup
 Charting: React Native Chart Kit
 
 Mock API: json-server
+
 
 🚀 Getting Started
 
@@ -66,7 +69,10 @@ Create a .env file in the project root.
 Add your local IP address for the API URL:
 
 API_URL=http://<YOUR_COMPUTER_IP_ADDRESS>:3001
+
+
 ▶️ How to Run
+
 You need to run two processes in separate terminals: the mock API server and the Expo development server.
 
 Start the API Server
